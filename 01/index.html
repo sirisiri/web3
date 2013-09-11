@@ -1,0 +1,102 @@
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Mako' rel='stylesheet' type='text/css'>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="Napangsiri Wanpen">
+	<meta name="description" content="Project 1/Web 3/Parsons MFADT/Fall 2013">
+	
+	<title>SIRI LIKES FUN STUFF</title>
+	
+	<link rel="stylesheet" href="css/p1.css">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>‌ 
+	<script type="text/javascript" src="js/drawing.js"></script>
+	<script type="text/javascript"> 
+		var totalCount = 7;
+		function ChangeIt() 
+		{
+			var num = Math.ceil( Math.random() * totalCount );
+			document.body.background = 'img/'+num+'.jpg';
+		}
+	</script>
+	<script type="text/javascript"> 
+		function SiriProfile() 
+		{
+			document.body.background = 'img/profile.jpg';
+		}
+	</script>
+	<!--For further development
+	<script>
+		function randomPage()
+		{
+			var link = "";
+			var randInt = Math.floor((Math.random()*3)+1);
+			switch(randInt) {
+				case 1:
+				link = "http://www.google.com/";
+				break;
+				case 2:
+				link = "http://www.yahoo.com/";
+				break;
+				case 3:
+				link = "http://www.bing.com/";
+				break;
+				default:
+				alert("Error in randomPage()");
+			}
+			window.location.href = link;
+		}
+	</script>
+-->
+</head>
+
+<body class="bg">
+	<div class="noshow">
+		<img src="img/profile.jpg">
+		<img src="img/1.jpg">
+		<img src="img/2.jpg">
+		<img src="img/3.jpg">
+		<img src="img/4.jpg">
+		<img src="img/4.jpg">
+		<img src="img/6.jpg">
+		<img src="img/7.jpg">
+	</div>
+	
+	<div class="header">
+		Siri likes fun stuff. She'll give you fun stuff. - Drag to draw. <input type="button" id="clear" value="Clear"> to redraw. <button onclick="ChangeIt()">Random</button> to change faces. Screencap your best and send it to <i>wanpn656@newschool.edu</i>.
+	</div>
+
+	<canvas id="canvas" width="1366" height="271">
+		Sorry. You and your browser aren't cool enough to know more about Siri.
+	</canvas>
+
+	<div class="footer">
+		Wait! <button onclick="SiriProfile()">Who's Siri?</button>
+	</div>
+</body>
+
+<script type="text/javascript"> 
+	ChangeIt();
+</script> 
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+	var sc_project=9238491; 
+	var sc_invisible=1; 
+	var sc_security="c8932089"; 
+	var scJsHost = (("https:" == document.location.protocol) ?
+		"https://secure." : "http://www.");
+	document.write("<sc"+"ript type='text/javascript' src='" +
+		scJsHost+
+		"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="free hit
+	counter" href="http://statcounter.com/" target="_blank"><img
+	class="statcounter"
+	src="http://c.statcounter.com/9238491/0/c8932089/1/"
+	alt="free hit counter"></a></div></noscript>
+	<!-- End of StatCounter Code for Default Guide -->
+
+	</html>

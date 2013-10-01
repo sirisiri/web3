@@ -1,0 +1,33 @@
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .slide {
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    padding: 150px 0; }
+
+  #decorative {
+    display: none; }
+
+  #content {
+    text-align: center;
+    width: 100%; } }
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .slide {
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    padding: 100px 0; }
+
+  /* Image Positions */
+  #over {
+    position: relative; }
+
+  #under {
+    position: absolute;
+    padding: 200px 0px; }
+
+  .grid_5,
+  .grid_7 {
+    width: 100%; } }

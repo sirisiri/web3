@@ -1,0 +1,77 @@
+/* GENERAL */
+.noshow {
+	display: none;
+}
+body {
+	margin: 0;
+}
+img {
+	width: 100%;
+}
+.heading {
+	width: 100%;
+}
+.title {
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.filter {
+	width: 149px;
+	height: 23px;
+}
+.filter-center {
+	text-align: center;
+}
+footer {
+	font-family: "Trebuchet MS";
+	font-size: 8pt;
+	color: #000000;
+	text-align: center;
+}
+
+/* DONUT BACKGROUND */
+.slide {
+	display: block;
+	background-image: url('../img/bg.jpg');
+	background-size: 100%;
+	width: 1024px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/* FILTER SYSTEM */
+.doughtnutFilter a { 
+	margin-right: 10px; 
+	color: #666;
+	text-decoration: none;
+}
+.doughnutFilter a.current { 
+	font-weight: bold;
+}
+.isotope-item {
+	z-index: 2;
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
+}

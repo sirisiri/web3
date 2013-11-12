@@ -7,4 +7,5 @@ Web 3 / Fall 2013 / MFADT / Parsons the New School for Design
 03 - Favorite Animal - http://tiny.cc/friendlycats-aws<br>
 04 - Favorite Animal JS - http://tiny.cc/friendlycats2-aws<br>
 05 (Midterm) - The Doughnut Counter - http://tiny.cc/doughnutcounter<br>
-06 - Browser Check - http://tiny.cc/browsercheck-aws
+06 - Browser Check - http://tiny.cc/browsercheck-aws<br>
+07 - Letter Worm Attacks! - http://tiny.cc/letterworm-aws

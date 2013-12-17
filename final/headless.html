@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="Napangsiri Wanpen and Seungkyun Lee">
+  <meta name="description" content="Final Project/Web 3/Parsons MFADT/Fall 2013">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+
+  <title>HEADLESS CHICKEN RUN</title>
+
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/result-light.css">
+
+  <style type="text/css">
+  body {
+    background-image: url("grassimg.jpg");
+    font-family: "Arial";
+    font-size: 14pt;
+    color: white;
+  }
+    #div1 {
+      position: absolute;
+      top: 150px;
+    }
+    #image {
+      position:absolute;
+      top: 180px;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <div id="text1">Steal the chicken's head off its body to start cooking!
+      <br/>
+      <small>(Drag the head off and dodge the body until time is up.)</small>
+    </div>
+    <img id="image" src="images/chicken-body.png">
+    <img id="div1" class="ui-draggable" src="chicken-head.png">
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

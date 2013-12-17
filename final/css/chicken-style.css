@@ -1,0 +1,59 @@
+{* padding:0; margin:0;}
+
+body{
+	/*background-color: yellow;*/
+	padding-top: 3%;
+	padding-bottom: 3%;
+	/*background-image:url('../images/bg-farm2.jpg');*/
+	background-image: url('../grassimg.jpg');
+	font-family: "Arial";
+    font-size: 12pt;
+    line-height: 20pt;
+    color: white;
+}
+
+.container{
+	/*background-color: orange;*/
+	width: 80%;
+	margin: auto;
+}
+
+h1{
+	font-size: 2.2em;
+}
+
+a:link,
+a:visited{
+	color: #ff9;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #fc6;
+}
+
+p{
+	max-width: 700px;
+	width: 80%;
+}
+
+h2{
+	font-size: 1.5em;
+	/*color: yellow;*/
+}
+
+h3{
+	margin: auto;
+}
+
+input[type=submit]{
+	padding: 7px;
+	background-color: yellow;
+	color: black;
+	font-size: 10pt;
+	border: 0 none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
